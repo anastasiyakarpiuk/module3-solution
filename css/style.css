@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  border-radius: 0;
+  border: none;
+}
+
+.navbar-header {
+  margin: 0;
+}
+
+#header-nav {
+  background-color: #d6ccc2;
+}
+
+.header-nav {
+  font-size: 30px;
+  font-weight: bold;
+  color: inherit;
+  float: left;
+  margin-left: 15px;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+.box {
+  position: relative;
+  padding: 15px;
+  background-color: #d6ccc2;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+}
+
+.navbar-default .navbar-nav li a {
+  text-align: center;
+  font-size: 14px;
+}
+
+.navbar-default .navbar-nav li:not(:last-child) {
+  border-bottom: 1px solid #333;
+}
+
+.navbar-nav {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-heade a:hover,
+.navbar-heade a:focus {
+  text-decoration: none;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+button .navbar-toggle {
+  background-color: transparent;
+  border: 2px solid #E7E7E7;
+}
+
+button .navbar-toggle:hover, 
+button .navbar-toggle:focus {
+  background: #E7E7E7;
+}
